@@ -4,7 +4,7 @@ import { WiCloudy } from "react-icons/wi";
 
 const Navbar = () => {
     return (
-        <div className="fixed top-0 left-0 px-4
+        <div className="fixed top-0 left-0 px-6
         w-screen h-16 
         flex flex-row
         bg-gray-900 text-white shadow-lg">
