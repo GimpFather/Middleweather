@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          <p className="bg-green-800 text-white">Udało się połączyć Reacta z Tailwindem!</p>
         </p>
         <a
           className="App-link"
