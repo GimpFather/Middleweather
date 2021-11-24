@@ -1,3 +1,20 @@
+const api = {
+    key: "a831ed50bd45dd33921bc296f9ab759d",
+    base: "https://api.openweathermap.org/data/2.5"
+}
+
+const dateBuilder = (d) => {
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+    let day = days[d.getDay()];
+    let date = d.getDay();
+    let month = months[d.getMonth()];
+    let year = d.getFullYear();
+
+    return `${day} ${date} ${month} ${year}`
+}
+
 const Hero = () => {
     return (
         <div className="
@@ -25,6 +42,7 @@ const MainCard = () => {
                 <p className="text-4xl">Cracow - Poland</p>
                 <br/>
                 <p className="text-xl">Today is very snowy day. You can except around 5&#176;.</p>
+                <p>{dateBuilder(new Date())}</p>
                 <br/>
                 <p>You should take some heavy armor - around 18AC.</p>
                 <p>Shield is also a good idea, against windy snowflakes.</p>
