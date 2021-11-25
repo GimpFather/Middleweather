@@ -52,4 +52,30 @@
         cursor-pointer;
     }
 
+    .hero-background_cr--theme{
+        @apply pt-16 pb-16
+        w-screen h-screen
+        flex flex-col
+        bg-background--cr__theme bg-cover bg-fixed
+        text-white shadow-lg justify-center;
+    }
+
+    .hero-background_cr--night__snow{
+        @apply pt-16 pb-16
+        w-screen h-screen
+        flex flex-col
+        bg-background--snow__night bg-cover bg-fixed
+        text-white shadow-lg justify-center;
+    }
+
+    .hero-background_cr--night__sun{
+        @apply pt-16 pb-16
+        w-screen h-screen
+        flex flex-col
+        bg-background--sun__night bg-cover bg-fixed
+        text-white shadow-lg justify-center;
+    }
+
+
+
 }

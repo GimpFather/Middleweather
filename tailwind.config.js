@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         'background--snow__day': "url('images/background--day__snow.jpeg')", //Author of this art is Heather Hood
         'background--snow__night': "url('images/background--night__snow.jpeg')", //Author of this art is: @ambikyu.
+        'background--sun__day': "url('images/background--day__sun.jpeg')", //Gina Garavalia
+        'background--sun__night': "url('images/background--night__sun.jpeg')", //Lap Pun Cheung
+        'background--cr__theme': "url('images/crTheme.jpeg')",
       }
     },
   },
