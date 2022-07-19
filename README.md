@@ -1,4 +1,4 @@
-# Middleweather - Check your weather!
+# <a href="http://middleweather.pl">Middleweather - Check your weather!</a>
 
 The main goal is to build the application using React and Tailwind!\
 I just wanna do, a site that will show you the weather and some cool art, from your favorite game/show.\
