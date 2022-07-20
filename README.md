@@ -1,3 +1,5 @@
+# Project is in the remaking procces on [new repo](https://github.com/GimpFather/middle-weather)!
+
 # <a href="http://middleweather.pl">Middleweather - Check your weather!</a>
 
 The main goal is to build the application using React and Tailwind!\
