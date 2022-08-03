@@ -1,4 +1,81 @@
 /* ./src/index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    .navbar-icon {
+        @apply relative flex items-center justify-center
+        h-12 w-12 
+        mt-2 mb-2
+        p-2 
+        mx-1
+        bg-gray-800 text-white
+        hover:bg-white hover:text-gray-800 
+        hover:rounded-xl
+        hover:p-1 
+        rounded-3xl
+        transition-all duration-300 ease-linear
+        cursor-pointer;
+    }
+
+    .navbar-tooltip {
+        @apply absolute w-auto p-2 m-2 min-w-max top-14
+        rounded-md shadow-md
+        text-white bg-gray-900
+        text-xs font-bold
+        transition-all duration-100 scale-0 origin-top;
+    }
+
+    .card-block {
+        @apply text-white bg-gray-900 h-auto text-center
+        rounded-xl shadow-lg opacity-100
+        p-3 m-2;
+    }
+
+    .hero-icon {
+        @apply relative flex items-center justify-center
+        h-12 w-12 
+        mt-2 mb-2
+        p-2 
+        mx-1
+        bg-gray-800
+        text-white 
+        transform rotate-180
+        hover:p-1
+        hover:rotate-0
+        rounded-3xl
+        transition-all duration-300 ease-linear
+        cursor-pointer;
+    }
+
+    .hero-background_cr--theme{
+        @apply pt-16 pb-16
+        w-screen h-screen
+        flex flex-col
+        bg-background--cr__theme bg-cover bg-fixed
+        text-white shadow-lg justify-center;
+    }
+
+    .hero-background_cr--night__snow{
+        @apply pt-16 pb-16
+        w-screen h-screen
+        flex flex-col
+        bg-background--snow__night bg-cover bg-fixed
+        text-white shadow-lg justify-center;
+    }
+
+    .hero-background_cr--night__sun{
+        @apply pt-16 pb-16
+        w-screen h-screen
+        flex flex-col
+        bg-background--sun__night bg-cover bg-fixed
+        text-white shadow-lg justify-center;
+    }
+
+
+
+}
